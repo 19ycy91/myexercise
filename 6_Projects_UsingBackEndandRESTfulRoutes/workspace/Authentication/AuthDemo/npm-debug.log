@@ -1,0 +1,269 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v6.11.2/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v6.11.2/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'passport',
+1 verbose cli   'pasport-local',
+1 verbose cli   'passport-local-mongoose',
+1 verbose cli   'exprss-session',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData passport@^0.4.0
+8 silly fetchPackageMetaData pasport-local
+9 silly fetchPackageMetaData passport-local-mongoose@^5.0.1
+10 silly fetchPackageMetaData exprss-session
+11 silly fetchNamedPackageData passport
+12 silly mapToRegistry name passport
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'passport',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   escapedName: 'passport',
+15 silly mapToRegistry   name: 'passport',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/passport
+17 silly fetchNamedPackageData passport-local-mongoose
+18 silly mapToRegistry name passport-local-mongoose
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry data Result {
+21 silly mapToRegistry   raw: 'passport-local-mongoose',
+21 silly mapToRegistry   scope: null,
+21 silly mapToRegistry   escapedName: 'passport-local-mongoose',
+21 silly mapToRegistry   name: 'passport-local-mongoose',
+21 silly mapToRegistry   rawSpec: '',
+21 silly mapToRegistry   spec: 'latest',
+21 silly mapToRegistry   type: 'tag' }
+22 silly mapToRegistry uri https://registry.npmjs.org/passport-local-mongoose
+23 silly fetchNamedPackageData pasport-local
+24 silly mapToRegistry name pasport-local
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry data Result {
+27 silly mapToRegistry   raw: 'pasport-local',
+27 silly mapToRegistry   scope: null,
+27 silly mapToRegistry   escapedName: 'pasport-local',
+27 silly mapToRegistry   name: 'pasport-local',
+27 silly mapToRegistry   rawSpec: '',
+27 silly mapToRegistry   spec: 'latest',
+27 silly mapToRegistry   type: 'tag' }
+28 silly mapToRegistry uri https://registry.npmjs.org/pasport-local
+29 silly fetchNamedPackageData exprss-session
+30 silly mapToRegistry name exprss-session
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry data Result {
+33 silly mapToRegistry   raw: 'exprss-session',
+33 silly mapToRegistry   scope: null,
+33 silly mapToRegistry   escapedName: 'exprss-session',
+33 silly mapToRegistry   name: 'exprss-session',
+33 silly mapToRegistry   rawSpec: '',
+33 silly mapToRegistry   spec: 'latest',
+33 silly mapToRegistry   type: 'tag' }
+34 silly mapToRegistry uri https://registry.npmjs.org/exprss-session
+35 verbose request uri https://registry.npmjs.org/pasport-local
+36 verbose request no auth needed
+37 info attempt registry request try #1 at 10:37:48 PM
+38 verbose request id 6491448186936966
+39 http request GET https://registry.npmjs.org/pasport-local
+40 verbose request uri https://registry.npmjs.org/exprss-session
+41 verbose request no auth needed
+42 info attempt registry request try #1 at 10:37:48 PM
+43 http request GET https://registry.npmjs.org/exprss-session
+44 verbose request uri https://registry.npmjs.org/passport
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 10:37:48 PM
+47 verbose etag W/"43d9101d543887e37d04f9d8326b5980"
+48 verbose lastModified Sun, 30 Sep 2018 17:03:32 GMT
+49 http request GET https://registry.npmjs.org/passport
+50 verbose request uri https://registry.npmjs.org/passport-local-mongoose
+51 verbose request no auth needed
+52 info attempt registry request try #1 at 10:37:48 PM
+53 verbose etag W/"a0a551088b5a11bec6206b4128c7ade3"
+54 verbose lastModified Wed, 20 Jun 2018 17:24:25 GMT
+55 http request GET https://registry.npmjs.org/passport-local-mongoose
+56 http 304 https://registry.npmjs.org/passport-local-mongoose
+57 verbose headers { date: 'Thu, 01 Nov 2018 22:37:48 GMT',
+57 verbose headers   connection: 'keep-alive',
+57 verbose headers   'set-cookie': [ '__cfduid=d074ac7d1fdca34eda1f351804a6916741541111868; expires=Fri, 01-Nov-19 22:37:48 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+57 verbose headers   'cf-cache-status': 'HIT',
+57 verbose headers   'cache-control': 'max-age=300',
+57 verbose headers   'cf-ray': '4731d91a4fc171eb-ORD',
+57 verbose headers   etag: '"a0a551088b5a11bec6206b4128c7ade3"',
+57 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+57 verbose headers   'last-modified': 'Wed, 20 Jun 2018 17:24:25 GMT',
+57 verbose headers   vary: 'accept-encoding, accept',
+57 verbose headers   server: 'cloudflare' }
+58 silly get cb [ 304,
+58 silly get   { date: 'Thu, 01 Nov 2018 22:37:48 GMT',
+58 silly get     connection: 'keep-alive',
+58 silly get     'set-cookie': [ '__cfduid=d074ac7d1fdca34eda1f351804a6916741541111868; expires=Fri, 01-Nov-19 22:37:48 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+58 silly get     'cf-cache-status': 'HIT',
+58 silly get     'cache-control': 'max-age=300',
+58 silly get     'cf-ray': '4731d91a4fc171eb-ORD',
+58 silly get     etag: '"a0a551088b5a11bec6206b4128c7ade3"',
+58 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+58 silly get     'last-modified': 'Wed, 20 Jun 2018 17:24:25 GMT',
+58 silly get     vary: 'accept-encoding, accept',
+58 silly get     server: 'cloudflare' } ]
+59 verbose etag https://registry.npmjs.org/passport-local-mongoose from cache
+60 verbose get saving passport-local-mongoose to /home/ubuntu/.npm/registry.npmjs.org/passport-local-mongoose/.cache.json
+61 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+62 http 304 https://registry.npmjs.org/passport
+63 verbose headers { date: 'Thu, 01 Nov 2018 22:37:48 GMT',
+63 verbose headers   connection: 'keep-alive',
+63 verbose headers   'set-cookie': [ '__cfduid=d688fe8f6cf5b6522c395cef5a951cc7e1541111868; expires=Fri, 01-Nov-19 22:37:48 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+63 verbose headers   'cf-cache-status': 'HIT',
+63 verbose headers   'cache-control': 'max-age=300',
+63 verbose headers   'cf-ray': '4731d91a5cca71cd-ORD',
+63 verbose headers   etag: '"43d9101d543887e37d04f9d8326b5980"',
+63 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+63 verbose headers   'last-modified': 'Sun, 30 Sep 2018 17:03:32 GMT',
+63 verbose headers   vary: 'accept-encoding, accept',
+63 verbose headers   'x-amz-meta-rev': '656-d3684cbd637ada92f2b7bc7d88a47a5d',
+63 verbose headers   server: 'cloudflare' }
+64 silly get cb [ 304,
+64 silly get   { date: 'Thu, 01 Nov 2018 22:37:48 GMT',
+64 silly get     connection: 'keep-alive',
+64 silly get     'set-cookie': [ '__cfduid=d688fe8f6cf5b6522c395cef5a951cc7e1541111868; expires=Fri, 01-Nov-19 22:37:48 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+64 silly get     'cf-cache-status': 'HIT',
+64 silly get     'cache-control': 'max-age=300',
+64 silly get     'cf-ray': '4731d91a5cca71cd-ORD',
+64 silly get     etag: '"43d9101d543887e37d04f9d8326b5980"',
+64 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+64 silly get     'last-modified': 'Sun, 30 Sep 2018 17:03:32 GMT',
+64 silly get     vary: 'accept-encoding, accept',
+64 silly get     'x-amz-meta-rev': '656-d3684cbd637ada92f2b7bc7d88a47a5d',
+64 silly get     server: 'cloudflare' } ]
+65 verbose etag https://registry.npmjs.org/passport from cache
+66 verbose get saving passport to /home/ubuntu/.npm/registry.npmjs.org/passport/.cache.json
+67 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+68 http 404 https://registry.npmjs.org/exprss-session
+69 verbose headers { date: 'Thu, 01 Nov 2018 22:37:48 GMT',
+69 verbose headers   'content-type': 'application/json',
+69 verbose headers   'content-length': '21',
+69 verbose headers   connection: 'keep-alive',
+69 verbose headers   'set-cookie': [ '__cfduid=d6ec67f22ab5d0672c9d4bf049318ff2f1541111868; expires=Fri, 01-Nov-19 22:37:48 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+69 verbose headers   'cf-cache-status': 'MISS',
+69 verbose headers   'cache-control': 'max-age=300',
+69 verbose headers   'cf-ray': '4731d91a3bf755ca-ORD',
+69 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+69 verbose headers   vary: 'accept-encoding, accept',
+69 verbose headers   server: 'cloudflare' }
+70 silly get cb [ 404,
+70 silly get   { date: 'Thu, 01 Nov 2018 22:37:48 GMT',
+70 silly get     'content-type': 'application/json',
+70 silly get     'content-length': '21',
+70 silly get     connection: 'keep-alive',
+70 silly get     'set-cookie': [ '__cfduid=d6ec67f22ab5d0672c9d4bf049318ff2f1541111868; expires=Fri, 01-Nov-19 22:37:48 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+70 silly get     'cf-cache-status': 'MISS',
+70 silly get     'cache-control': 'max-age=300',
+70 silly get     'cf-ray': '4731d91a3bf755ca-ORD',
+70 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+70 silly get     vary: 'accept-encoding, accept',
+70 silly get     server: 'cloudflare' } ]
+71 silly fetchPackageMetaData Error: Not found : exprss-session
+71 silly fetchPackageMetaData     at makeError (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+71 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+71 silly fetchPackageMetaData     at Request._callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+71 silly fetchPackageMetaData     at Request.self.callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:187:22)
+71 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+71 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+71 silly fetchPackageMetaData     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+71 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+71 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+71 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:969:12)
+71 silly fetchPackageMetaData  error for exprss-session { Error: Not found : exprss-session
+71 silly fetchPackageMetaData     at makeError (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+71 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+71 silly fetchPackageMetaData     at Request._callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+71 silly fetchPackageMetaData     at Request.self.callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:187:22)
+71 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+71 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+71 silly fetchPackageMetaData     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+71 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+71 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+71 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:969:12) pkgid: 'exprss-session', statusCode: 404, code: 'E404' }
+72 http 404 https://registry.npmjs.org/pasport-local
+73 verbose headers { date: 'Thu, 01 Nov 2018 22:37:48 GMT',
+73 verbose headers   'content-type': 'application/json',
+73 verbose headers   'content-length': '21',
+73 verbose headers   connection: 'keep-alive',
+73 verbose headers   'set-cookie': [ '__cfduid=df2aac828e02f4d119f621e49090428371541111868; expires=Fri, 01-Nov-19 22:37:48 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+73 verbose headers   'cf-cache-status': 'MISS',
+73 verbose headers   'cache-control': 'max-age=300',
+73 verbose headers   'cf-ray': '4731d91a3f1455e8-ORD',
+73 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+73 verbose headers   vary: 'accept-encoding, accept',
+73 verbose headers   server: 'cloudflare' }
+74 silly get cb [ 404,
+74 silly get   { date: 'Thu, 01 Nov 2018 22:37:48 GMT',
+74 silly get     'content-type': 'application/json',
+74 silly get     'content-length': '21',
+74 silly get     connection: 'keep-alive',
+74 silly get     'set-cookie': [ '__cfduid=df2aac828e02f4d119f621e49090428371541111868; expires=Fri, 01-Nov-19 22:37:48 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+74 silly get     'cf-cache-status': 'MISS',
+74 silly get     'cache-control': 'max-age=300',
+74 silly get     'cf-ray': '4731d91a3f1455e8-ORD',
+74 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+74 silly get     vary: 'accept-encoding, accept',
+74 silly get     server: 'cloudflare' } ]
+75 silly fetchPackageMetaData Error: Not found : pasport-local
+75 silly fetchPackageMetaData     at makeError (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+75 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+75 silly fetchPackageMetaData     at Request._callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+75 silly fetchPackageMetaData     at Request.self.callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:187:22)
+75 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+75 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+75 silly fetchPackageMetaData     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+75 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+75 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+75 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:969:12)
+75 silly fetchPackageMetaData  error for pasport-local { Error: Not found : pasport-local
+75 silly fetchPackageMetaData     at makeError (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+75 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+75 silly fetchPackageMetaData     at Request._callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+75 silly fetchPackageMetaData     at Request.self.callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:187:22)
+75 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+75 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+75 silly fetchPackageMetaData     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+75 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+75 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+75 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:969:12) pkgid: 'pasport-local', statusCode: 404, code: 'E404' }
+76 silly rollbackFailedOptional Starting
+77 silly rollbackFailedOptional Finishing
+78 silly runTopLevelLifecycles Finishing
+79 silly install printInstalled
+80 verbose stack Error: Not found : exprss-session
+80 verbose stack     at makeError (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+80 verbose stack     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+80 verbose stack     at Request._callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+80 verbose stack     at Request.self.callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:187:22)
+80 verbose stack     at emitTwo (events.js:106:13)
+80 verbose stack     at Request.emit (events.js:191:7)
+80 verbose stack     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+80 verbose stack     at emitOne (events.js:96:13)
+80 verbose stack     at Request.emit (events.js:188:7)
+80 verbose stack     at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:969:12)
+81 verbose statusCode 404
+82 verbose pkgid exprss-session
+83 verbose cwd /home/ubuntu/workspace/Authentication/AuthDemo
+84 error Linux 4.9.120-c9
+85 error argv "/home/ubuntu/.nvm/versions/node/v6.11.2/bin/node" "/home/ubuntu/.nvm/versions/node/v6.11.2/bin/npm" "install" "passport" "pasport-local" "passport-local-mongoose" "exprss-session" "--save"
+86 error node v6.11.2
+87 error npm  v3.10.10
+88 error code E404
+89 error 404 Not found : exprss-session
+90 error 404
+91 error 404 'exprss-session' is not in the npm registry.
+92 error 404 You should bug the author to publish it (or use the name yourself!)
+93 error 404 Note that you can also install from a
+94 error 404 tarball, folder, http url, or git url.
+95 verbose exit [ 1, true ]

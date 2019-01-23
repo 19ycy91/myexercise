@@ -1,0 +1,14 @@
+{
+  "name": "expass1",
+  "version": "1.0.0",
+  "description": "express assignment 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "meeeeeeeeee",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
